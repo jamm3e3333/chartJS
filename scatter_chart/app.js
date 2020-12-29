@@ -4,6 +4,10 @@ var chart = new Chart(ctx,{
     data:{
         datasets: [{
             label: 'Scatter chart',
+            pointBackgroundColor: ['rgba(164, 66, 245,0.4)','rgba(66, 138, 245,0.4)','rgba(66, 245, 182,0.4)', 
+            'rgba(209, 245, 66,0.4)','rgba(245, 72, 66,0.4)'], 
+            pointBorderWidth: 3,
+            pointRadius: 5,
             data: [
                 {
                     x:-2,y:10
