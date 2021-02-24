@@ -36,6 +36,9 @@ var chart = new Chart(ctx, {
             titleFontSize: 20,
             titleFontStyle: 'normal',
             titleFontColor: 'black',
+            titleSpacing: 2,
+            titleAlign: 'center',
+            titleMarginBottom: 10,
             bodyFontColor: 'black'
 
         }
